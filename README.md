@@ -21,17 +21,23 @@
 
 ## Brand Identity
 
-This repository follows a premium healthcare operations visual identity designed for LinkedIn portfolio content, workflow case studies, and student-built proof-of-work assets.
+This repository follows the locked **Kori Pickle Visual Brand System** for LinkedIn portfolio content, workflow case studies, GitHub preview graphics, dashboard mockups, Canva exports, and student-built proof-of-work assets.
 
 | Element | Direction |
 |---|---|
 | Primary Background | White `#FFFFFF` |
-| Accent Color | Tennessee / Vols Orange `#FF8200` |
-| Font Color | Black `#000000` |
-| Headline Style | High-contrast editorial serif |
-| Supporting Text | Clean sans-serif |
-| Structure | Warm gray grids, dotted connectors, double-ring nodes, soft glow accents |
-| Visual Feel | Premium, feminine, structured, analytical, operational |
+| Accent Color | Vols Orange `#FF8200` |
+| Typography | Black `#111111` and deep gray `#333333` |
+| Structure | Warm gray `#E8E2DC` |
+| Headline Style | High-contrast editorial serif, Didot / Playfair style |
+| Supporting Text | Clean sans-serif, Inter / Helvetica style |
+| Signature Look | Double-ring nodes, soft glow, dotted connectors, structured asymmetry |
+| Visual Feel | Strategic, editorial, productized, feminine precision, healthcare operations focused |
+
+### Design System Files
+
+- [Locked Brand Rules](design-system/brand-rules.md)
+- [Reusable Master Prompt Add-On](design-system/master-prompt-add-on.md)
 
 ---
 
@@ -86,24 +92,25 @@ README.md
 LICENSE
 
 content/
-  linkedin-posts.md
-  momentum-language-framework.md
-  workflow-analysis-notes.md
+  workflow_content.csv
+
+design-system/
+  brand-rules.md
+  master-prompt-add-on.md
 
 templates/
-  one-page-workflow-review.md
+  workflow_template.md
   linkedin-post-template.md
-  clinic-outreach-template.md
+  carousel-slide-template.md
 
 docs/
-  prior-authorization-workflow.md
-  eligibility-verification-workflow.md
-  denial-prevention-workflow.md
-  patient-access-handoffs.md
+  intake-breakdown.md
+  documentation-breakdown.md
+  prior-authorization-breakdown.md
+  denial-root-cause-breakdown.md
 
 exports/
-  linkedin-carousel-assets/
-  workflow-visuals/
+  README.md
 ```
 
 ---
@@ -117,36 +124,42 @@ PRIMARY BACKGROUND
 White: #FFFFFF
 
 ACCENT COLOR
-Tennessee Orange: #FF8200
+Vols Orange: #FF8200
 
-FONT COLOR
-Black: #000000
+TYPOGRAPHY
+Black: #111111
+Deep Gray: #333333
 
 SUPPORTING STRUCTURE
-Warm gray lines, grids, cards, and dividers
+Warm gray lines, grids, cards, and dividers: #E8E2DC
 
 HEADLINES
 High-contrast editorial serif
-Large scale
+Didot / Playfair style
+Large scale dominance
+Tight kerning
 Black type with selective #FF8200 emphasis
 
 BODY TEXT
 Clean sans-serif
+Inter / Helvetica style
 Short lines
 Strong spacing
 Operational language
 
 VISUAL ELEMENTS
 Double-ring circular nodes
-Soft orange glow
+Thin orange outer stroke
+Soft glow inside
 Dotted or fading connector lines
 Structured grid with intentional asymmetry
-40–50% whitespace
+40 to 50 percent whitespace
 Minimal LinkedIn and GitHub icons
 
 FOOTER
 Created by Kori Pickle
 Kori Pickle in elegant handwritten cursive signature style
+Signature must be black or deep gray only, never orange
 ```
 
 ---

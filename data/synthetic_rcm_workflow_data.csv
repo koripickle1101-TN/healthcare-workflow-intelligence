@@ -1,0 +1,21 @@
+account_id,service_line,payer_type,authorization_required,authorization_status,eligibility_status,documentation_complete,claim_status,denial_reason,days_in_ar,rework_required,patient_impact
+A1001,Cardiology,Commercial,Yes,Approved,Verified,Yes,Paid,None,18,No,None
+A1002,Orthopedics,Commercial,Yes,Pending,Verified,Yes,Denied,Authorization not obtained,46,Yes,Appointment delay and billing confusion
+A1003,Primary Care,Medicaid,No,Not required,Inactive,Yes,Denied,Eligibility inactive,39,Yes,Unexpected patient balance
+A1004,Imaging,Medicare Advantage,Yes,Approved,Verified,No,Denied,Documentation incomplete,52,Yes,Delayed account resolution
+A1005,Surgery,Commercial,Yes,Denied,Verified,Yes,Denied,Authorization denied,61,Yes,Rescheduled service
+A1006,Behavioral Health,Medicaid,Yes,Pending,Verified,Yes,In review,Pending payer response,28,Yes,Unclear care timeline
+A1007,Primary Care,Self-pay,No,Not required,Not applicable,Yes,Paid,None,12,No,None
+A1008,Cardiology,Medicare Advantage,Yes,Approved,Verified,Yes,Paid,None,21,No,None
+A1009,Imaging,Commercial,Yes,Missing,Verified,Yes,Denied,Authorization not obtained,55,Yes,Patient called multiple times
+A1010,Orthopedics,Medicaid,Yes,Approved,Inactive,Yes,Denied,Eligibility inactive,44,Yes,Coverage confusion
+A1011,Surgery,Commercial,Yes,Approved,Verified,No,Denied,Medical necessity documentation missing,68,Yes,Delayed reimbursement
+A1012,Primary Care,Commercial,No,Not required,Verified,Yes,Paid,None,16,No,None
+A1013,Imaging,Medicare Advantage,Yes,Approved,Verified,Yes,Paid,None,24,No,None
+A1014,Cardiology,Commercial,Yes,Pending,Verified,No,In review,Documentation pending,33,Yes,Additional patient outreach
+A1015,Behavioral Health,Commercial,Yes,Approved,Verified,Yes,Paid,None,19,No,None
+A1016,Surgery,Medicare Advantage,Yes,Missing,Verified,Yes,Denied,Authorization not obtained,73,Yes,Service delay and billing escalation
+A1017,Orthopedics,Commercial,Yes,Approved,Verified,No,Denied,Documentation incomplete,49,Yes,Rework before appeal
+A1018,Primary Care,Medicaid,No,Not required,Verified,Yes,Paid,None,14,No,None
+A1019,Imaging,Commercial,Yes,Approved,Inactive,Yes,Denied,Eligibility inactive,41,Yes,Unexpected billing issue
+A1020,Cardiology,Medicare Advantage,Yes,Approved,Verified,No,Denied,Medical necessity documentation missing,64,Yes,Delayed account closure
